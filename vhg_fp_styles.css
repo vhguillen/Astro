@@ -1,0 +1,516 @@
+﻿body 
+{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e6e6e6;
+}
+
+@font-face
+{
+    font-family: OCRVHG;
+    src: url("OCRAEXT.TTF");
+}
+
+/*** Header ***/
+
+header
+{
+    width: 100%;
+}
+
+h1, h2, h3
+{
+    font-family: OCRVHG;
+    color: red;
+}
+
+#headercontainer 
+{
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-image: url("vhg_fp_moonhead.JPG");
+    background-size: 100%;
+}
+
+.sitename
+{
+    font-family: OCRVHG;
+    font-size: 300%;
+    padding: 20px 10px 20px;
+}
+
+.sitename a:link
+{
+    color: white;
+    text-decoration: none;
+}
+
+.sitename a:visited
+{
+    color: white;
+    text-decoration: none;
+}
+
+.sitename a:hover
+{
+    color:white;
+    text-decoration: none;
+}
+
+/*** Content ***/
+
+#mainwrapper
+{
+    width: 80%;
+    margin: auto;
+    background-color: white;
+}
+
+.maincontent
+{
+    width: 94%;
+    background-color: white;
+    margin: auto;
+}
+
+#innercontent
+{
+    width: 90%;
+    margin: auto;
+    text-align: justify;
+    line-height: 200%;
+}
+
+.homeimagecontainer
+{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 80%;
+}
+
+.homeimage
+{
+    width: 100%;
+}
+
+.refractorcontainer
+{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 80%;
+}
+
+.refractor
+{
+    width: 100%;
+}
+
+.reflectorcontainer
+{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 80%;
+}
+
+.reflector
+{
+    width: 100%;
+}
+
+/**** Links ***/
+
+nav
+{
+    clear:both;
+    line-height: 1cm;
+    background-color: red;
+    font-size: 140%;
+}
+
+nav a:link
+{
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    display: inline-block;
+}
+
+nav a:visited
+{
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    background-color: #ffffb3;
+    color: black;
+    text-decoration: none;
+}
+
+/**** Footer ***/
+
+footer
+{
+    clear: both;
+    width: 100%;
+    color: white;
+    background-color: #4d4d4d;
+}
+
+#footercontent
+{
+    padding: 25px;
+    text-align: center;
+    font-size: 90%;
+}
+
+footer a:link
+{
+    color: white;
+}
+
+footer a:visited
+{
+    color: white;
+}
+
+footer a:hover
+{
+    color: yellow;
+}
+
+/*** Form ***/
+
+#formcontainer
+{
+    width: 80%;
+    border: 1px solid gray;
+    margin: auto;
+    padding: 20px;
+}
+
+form
+{
+    font-size: 100%;
+}
+
+#tableform
+{
+    width: 100%;
+}
+
+#tableform td
+{
+    width: 100%;
+    padding-top: 6px;
+}
+
+.tableformleftcolumn
+{
+    width: 30%;
+    text-align: right;
+    float: left;
+    display: block;
+    padding-right: 10px;
+}
+
+.tableformrightcolumn
+{
+    width: 68%;
+    text-align: left;
+    float: left;
+    display: block;
+}
+
+input[type=text] , input[type=password]
+{
+    display: inline-block;
+    padding: 4px 12px;
+}
+
+input[type=submit] , input[type=reset]
+{
+    background-color: #003366;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+ }
+
+input[type=submit]:hover, input[type=reset]:hover
+{
+    background-color: #4997d0;
+}
+
+textarea 
+{
+    resize: none;
+    padding: 4px 12px;
+    height: 10em;
+    width: 100%;
+}
+
+select 
+{
+    display: inline-block;
+    padding: 4px 12px;
+}
+
+label 
+{
+    display: inline-block;
+    font-size: 100%;
+    width: 30%;
+    text-align: right;    
+    vertical-align: top;
+}
+
+/*** Photo Gallery ***/
+
+#gallerytable
+{
+    width: 98%;
+}
+
+.gallerycell
+{
+    width: 25%;
+    height: 255px;
+    vertical-align: top;
+}
+
+.gallerythumbnail
+{
+    width: 100%;
+    height: 100%;
+}
+
+/********************************************************************************************************************/
+/*                                                Smartphone portrait                                               */
+/********************************************************************************************************************/
+
+@media only screen and (max-width: 479px) 
+{
+    /*** Header ***/
+
+    header 
+    {
+        width: 100%;
+    }
+
+    h1, h2, h3 
+    {
+        font-family: OCRVHG;
+        color: red;
+    }
+
+    #headercontainer 
+    {
+        width: 100%;
+        height: 100%;
+        color: yellow;
+        background-image: url("vhg_fp_moonhead.JPG");
+        background-size: 100%;
+    }
+
+    .sitename 
+    {
+        font-family: OCRVHG;
+        font-size: 200%;
+        padding: 10px 10px;
+    }
+
+    .sitename a:link 
+    {
+        color: white;
+        text-decoration: none;
+    }
+
+    .sitename a:visited 
+    {
+        color: white;
+        text-decoration: none;
+    }
+
+    .sitename a:hover 
+    {
+        color: white;
+        text-decoration: none;
+    }
+
+    /*** Content ***/
+
+    #mainwrapper 
+    {
+        width: 99%;
+        margin: auto;
+        background-color: white;
+    }
+
+    .maincontent 
+    {
+        width: 100%;
+        background-color: white;
+        margin: auto;
+    }
+
+    #innercontent 
+    {
+        width: 90%;
+        margin: auto;
+        text-align: justify;
+        line-height: 200%;
+    }
+
+    .homeimagecontainer 
+    {
+        width: 100%;
+        margin: auto;
+    }
+
+    .homeimage 
+    {
+        width: 100%;
+    }
+
+    .refractorcontainer
+    {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        font-weight: bold;
+        font-size: 80%;
+    }
+
+    .refractor
+    {
+        width: 100%;
+    }
+
+    .reflectorcontainer
+    {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        font-weight: bold;
+        font-size: 80%;
+    }
+
+    .reflector
+    {
+        width: 100%;
+    }
+
+    /**** Links ***/
+
+    nav 
+    {
+        clear: both;
+        line-height: 1cm;
+        background-color: red;
+        font-size: 100%;
+    }
+
+    nav a:link 
+    {
+        color: white;
+        text-decoration: none;
+        padding: 3px 3px;
+        display: inline-block;
+    }
+
+    nav a:visited 
+    {
+        color: white;
+        text-decoration: none;
+    }
+
+    nav a:hover 
+    {
+        background-color: #ffffb3;
+        color: black;
+        text-decoration: none;
+    }
+
+    /**** Footer ***/
+
+    footer 
+    {
+        clear: both;
+        width: 99%;
+        color: white;
+        background-color: #4d4d4d;
+        margin: auto;
+    }
+
+    /*** Form ***/
+
+    #formcontainer 
+    {
+        width: 94%;
+        margin: auto;
+        padding: 10px;
+    }
+
+    form 
+    {
+        font-size: 100%;
+    }
+
+    #tableform 
+    {
+        width: 95%;
+    }
+
+    #tableform td 
+    {
+        width: 95%;
+        padding-top: 6px;
+    }
+
+    .tableformleftcolumn 
+    {
+        width: 85%;
+        text-align: left;
+        display: block;
+    }
+
+    .tableformrightcolumn 
+    {
+        width: 85%;
+        text-align: left;
+        display: block;
+    }
+
+    /*** Photo Gallery ***/
+
+    #gallerytable 
+    {
+        width: 100%;
+    }
+
+    .gallerycell 
+    {
+        width: 25%;
+        height: 70px;
+        vertical-align: top;
+    }
+
+    .gallerythumbnail 
+    {
+        width: 100%;
+        height: 100%;
+    }
+}

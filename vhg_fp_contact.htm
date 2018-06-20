@@ -1,0 +1,175 @@
+﻿<!DOCTYPE html>
+
+<!-- ***** Author: Victor Guillen ***** -- >
+<!-- ***** Course: ITSE2402 ***** -- >
+<!-- ***** Assignment Number: Final Project ***** -- >
+<!-- ***** Date Created: 5/1/2017***** -- >
+<!-- ***** Date Updated: 5/5/2017 ***** -- >
+<!-- ***** Description: Contact form for Astrophotography site ***** -->
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Astrophotography - Contact Us</title>
+
+    <link rel="stylesheet" href="vhg_fp_styles.css" type="text/css" />
+    <link rel="icon" href="vhg_fp_favicon.ico" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="vhg_fp_scripts.js"></script>
+</head>
+<body>
+
+    <div id="mainwrapper">
+
+        <header>
+
+            <div id="headercontainer">
+                <div class="sitename">
+                    <a href="./" title="Go to Home Page">Astrophotography</a>
+                </div>
+            </div>
+
+            <nav>
+                <a href="index.htm" title="Go to Home Page">Home</a>
+                <a href="vhg_fp_steps.htm" title="See the Guidelines">Guidelines</a>
+                <a href="vhg_fp_planetary.htm" title="Planetary technique">Planetary</a>
+                <a href="vhg_fp_deepspace.htm" title="Deep Space technique">Deep Space</a>
+                <a href="vhg_fp_gallery.htm" title="Photo Gallery">Photo Gallery</a>
+                <a href="vhg_fp_contact.htm" title="Contact Us">Contact Us</a>
+                <a href="vhg_fp_about.htm" title="About Astophotography">About</a>
+                <a href="vhg_fp_design.htm" title="Design Document" target="_blank">Design</a>
+                <a href="http://www.tccd.edu/" title="TCC Website" target="_blank">TCC</a>
+            </nav>
+
+        </header>
+
+        <div class="maincontent">
+
+            <h1>Contact Us</h1>
+
+            <div id="innercontent">
+
+                <div id="formcontainer">
+
+                    <form id="feedbackform" action="index.htm" onsubmit="return senddata()" method="get">
+
+                        <strong>Please fill the form below, and please note that this form will send an email to me</strong>
+
+                        <table id="tableform">
+                            <tr>
+                                <td>
+                                    <div class="tableformleftcolumn">
+                                        Your Name
+                                    </div>
+                                    <div class="tableformrightcolumn">
+                                        <input type="text" id="yourname" name="yourname" />
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="tableformleftcolumn">
+                                        Email
+                                    </div>
+                                    <div class="tableformrightcolumn">
+                                        <input type="text" id="email" name="email" />
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="tableformleftcolumn">
+                                        Comments
+                                    </div>
+                                    <div class="tableformrightcolumn">
+                                        <textarea id="comments" name="comments"></textarea>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="tableformleftcolumn">
+                                        How did you hear about this site
+                                    </div>
+                                    <div class="tableformrightcolumn">
+                                        <select name="heard">
+                                            <option value="search">Search Engine</option>
+                                            <option value="friend">A Friend</option>
+                                            <option value="other">Other</option>
+                                        </select>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="tableformleftcolumn">
+                                        Join Electronic Newsletter
+                                    </div>
+                                    <div class="tableformrightcolumn">
+                                        <input type="checkbox" id="join" name="join" value="joinnewsletter" />
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="tableformleftcolumn">
+                                        Preferred Browser
+                                    </div>
+                                    <div class="tableformrightcolumn">
+                                        <input type="radio" name="browsertype" value="Google Chrome" />Google Chrome<br />
+                                        <input type="radio" name="browsertype" value="Intenet Explorer" />Intenet Explorer<br />
+                                        <input type="radio" name="browsertype" value="Microsoft Edge" />Microsoft Edge<br />
+                                        <input type="radio" name="browsertype" value="Firefox" />Firefox<br />
+                                        <input type="radio" name="browsertype" value="Opera" />Opera<br />
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <p>
+                            I will not sell or disclose your information
+                        </p>
+
+                        <input type="submit" value="Send" />
+                        &nbsp;&nbsp;
+                        <input type="reset" value="Clear Form" />
+
+                    </form>
+
+                </div>
+
+            </div>
+
+            <br /><br />
+
+        </div>
+
+    </div>
+
+    <footer>
+
+        <div id="footercontent">
+
+            2017 &copy; Astrophotography, Victor Guillen. All Rights Reserved.
+
+            &nbsp;
+            <img src="vhg_fp_mail.png" style="width: 15px" />
+            Send Email to: <a href="vhg_fp_contact.htm" title="Send email">victor.guillen@my.tccd.edu</a>
+
+            <br /><br />
+
+            Last Updated: May/5/2017
+
+            <br /><br />
+
+            <a href="vhg_fp_aup.htm" title="Acceptable Use Policy">Acceptable Use Policy</a>
+            &nbsp;&nbsp;
+            <a href="vhg_fp_sitemap.htm" title="Site Map">Site Map</a>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
